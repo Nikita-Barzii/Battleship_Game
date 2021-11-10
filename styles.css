@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("board.jpg") no-repeat; 
+}
+
+#messageArea {
+    position: absolute;
+    left: 25%;
+    top: 40px;
+    color: chartreuse;
+    font-size: 30px;
+}
+
+table {
+    position: absolute;
+   /* border: 1px solid crimson; */
+    left: 172px;
+    top: 100px;
+    border-spacing: 0px;
+
+}
+
+td {
+    width: 94px;
+    height: 94px;
+ /* border: 1px solid blue; */
+}
+
+form {
+    position: absolute;
+    bottom: -10px;
+    left: 35%;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+#guessInput:focus {
+    outline: none;
+}
+
+input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+.hit {
+    background: url("ship.png") no-repeat center center;
+}
+
+.miss {
+    background: url("miss.png") no-repeat center center;
+}
+   
